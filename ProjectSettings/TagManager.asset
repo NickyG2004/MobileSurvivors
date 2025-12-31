@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Walls
+  - Player
+  - Enemy
+  - PlayerWeapon
+  - EnemyDamageVolume
+  - PickUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3450892177
+    locked: 0
+  - name: Collisions
+    uniqueID: 2596617405
+    locked: 0
+  - name: Characters
+    uniqueID: 584632963
+    locked: 0
+  - name: Weapons
+    uniqueID: 1022586713
+    locked: 0
+  m_RenderingLayers:
+  - Default

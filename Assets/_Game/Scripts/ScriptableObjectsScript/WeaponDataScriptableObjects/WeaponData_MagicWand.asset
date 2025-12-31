@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7331920a1e019bb46a420255e9d21745, type: 3}
+  m_Name: WeaponData_MagicWand
+  m_EditorClassIdentifier: 
+  debugMode: 0
+  _name: MagicWand
+  _damage: 8
+  _cooldown: 1
+  _weaponFireSoundEffect: {fileID: 8300000, guid: b854071e6c8cfb3408cfca032f8e43e9, type: 3}
+  _weaponFireSoundEffectVolume: 1
+  _onlyFireIfNearbyTargets: 1
+  _detectionRadius: 10
+  _targetFilter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 256
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  _isProjectile: 1
+  _isMelee: 0
+  _projectile: {fileID: 2054624026515764328, guid: 1d7b6301d80492b43930e6c7f9e63e32, type: 3}
+  _moveSpeed: 5
+  _projectileLifetime: 2
+  _melee: {fileID: 39770498607513018, guid: 3660608e894419d46b967cf910fc5b4a, type: 3}
+  _meleeLifetime: 2

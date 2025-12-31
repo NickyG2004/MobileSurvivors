@@ -1,0 +1,22 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="TopHUDContainer" style="flex-grow: 1;">
+        <engine:VisualElement name="Container" style="flex-grow: 1; max-height: 100px; margin-top: 55px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+            <engine:VisualElement name="ProgressBarBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.69); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-left-color: rgb(255, 182, 0); border-right-color: rgb(255, 182, 0); border-top-color: rgb(255, 182, 0); border-bottom-color: rgb(255, 182, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px;">
+                <engine:VisualElement name="ProgressBarFill" style="flex-grow: 1; background-color: rgb(0, 84, 255); width: 0;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="Container" style="flex-grow: 1; max-height: 100px; margin-top: 24px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+            <engine:VisualElement name="HealthBarBackground" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.69); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-left-color: rgb(255, 182, 0); border-right-color: rgb(255, 182, 0); border-top-color: rgb(255, 182, 0); border-bottom-color: rgb(255, 182, 0); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px;">
+                <engine:VisualElement name="HealthBarFill" style="flex-grow: 1; background-color: rgb(255, 62, 0); width: 100%;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="EXPSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/T_EXPPickup_16x16_D.png?fileID=21300000&amp;guid=43b0920a1566d4f44997c967e13e1889&amp;type=3#T_EXPPickup_16x16_D&quot;); transform-origin: left top; background-size: 123px 108px; translate: -462px -427px;" />
+        <engine:VisualElement name="HeartSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/T_HealthPickup_16x16_D.png?fileID=21300000&amp;guid=465e34a315c7a5d44be903220037a91a&amp;type=3#T_HealthPickup_16x16_D&quot;); background-size: 123px 108px; translate: -467px -702px;" />
+        <engine:VisualElement name="TimerSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/T_Timer_32x32_D.png?fileID=21300000&amp;guid=6717fefe751cf27458be59a1931f052c&amp;type=3#T_Timer_32x32_D&quot;); transform-origin: left top; background-size: 123px 108px; translate: -426px -994px;" />
+        <engine:Label text="XX:XX" name="ElapsedTimeLable" style="align-self: center; font-size: 58px; color: rgb(255, 255, 255); transform-origin: top; translate: -270px -1244px; -unity-font-style: bold;" />
+        <engine:VisualElement name="CoinSprite" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Game/Art/Sprites/T_CoinPickup_16x16_D.png?fileID=21300000&amp;guid=bfbceff4e75887c468e40caa6f18010e&amp;type=3#T_CoinPickup_16x16_D&quot;); background-size: 123px 108px; transform-origin: top; translate: 302px -1504px;" />
+    </engine:VisualElement>
+    <engine:Label text="LEV : " name="LevelLabel" style="align-self: center; font-size: 58px; -unity-font-style: bold; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); transform-origin: top; translate: -12px -1751px;" />
+    <engine:Label text="XX" name="LevelCountLabel" style="font-size: 58px; -unity-font-style: bold; color: rgb(255, 255, 255); translate: 621px -1835px;" />
+    <engine:Label text="XX" name="CoinCountLabel" style="align-self: flex-end; font-size: 58px; -unity-font-style: bold; color: rgb(255, 255, 255); translate: -80px -1925px;" />
+</engine:UXML>
